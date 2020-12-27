@@ -1,7 +1,7 @@
-function add(a: number, b: number) {
+function add1(a: number, b: number) {
  return a + b
 }
-const getTotal = add(3, 5);
+const getTotal = add1(3, 5);
 
 // 上面这时候add函数返回值的类型不可控，需要如下处理：
 
